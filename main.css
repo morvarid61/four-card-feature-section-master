@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.header {
+    text-align: center;
+    margin-left: 32%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 550px;
+    height: 168px;
+
+}
+
+.header h1 {
+    color: #DADAE5;
+    font-size: 40px;
+}
+
+.header h2 {
+    color: #4D4F62;
+    font-size: 44px;
+    margin-top: 10px;
+}
+
+.header h3 {
+    color: #DADAE5;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+.sec {
+    width: 80%;
+    height: 570px;
+    margin-left: 10%;
+    display: inline-block;
+
+}
+
+.sup {
+    border-top: 5px solid #44D3D2;
+    width: 30%;
+    height: 250px;
+    margin-top: 150px;
+    bottom: 300px;
+    display: inline-block;
+    box-shadow: #DADAE5 0 2px 3px 3px;
+    border-radius: 7px;
+    /* position: relative; */
+
+}
+
+.sup h2 {
+    margin: 30px;
+}
+
+.sup p {
+    margin-left: 30px;
+    font-size: 20px;
+    color: #DADAE5;
+}
+
+.sup img {
+
+    margin-left: 60%;
+    width: 20%;
+}
+
+.Team {
+    border-top: 5px solid #EA5454;
+    width: 30%;
+    height: 250px;
+    display: inline-block;
+    box-shadow: #DADAE5 0 2px 3px 3px;
+    border-radius: 7px;
+    position: relative;
+    margin-left: 60px;
+    bottom: 150px;
+}
+
+.Team h2 {
+    margin: 30px;
+}
+
+.Team p {
+    margin-left: 30px;
+    font-size: 20px;
+    color: #DADAE5;
+}
+
+.Team img {
+
+    margin-left: 62%;
+    width: 20%;
+}
+
+.karma {
+    border-top: 5px solid #FCAE4A;
+    width: 30%;
+    height: 250px;
+    display: inline-block;
+    box-shadow: #DADAE5 0 2px 3px 3px;
+    border-radius: 7px;
+    position: relative;
+    margin-left: 35%;
+    bottom: 90px;
+}
+
+.karma h2 {
+    margin: 30px;
+}
+
+.karma p {
+    margin-left: 30px;
+    font-size: 20px;
+    color: #DADAE5;
+}
+
+.karma img {
+
+    margin-left: 62%;
+    width: 20%;
+}
+
+.calc {
+    border-top: 5px solid #549EF2;
+    width: 30%;
+    height: 250px;
+    display: inline-block;
+    box-shadow: #DADAE5 0 2px 3px 3px;
+    border-radius: 7px;
+    position: relative;
+    margin-left: 70%;
+    bottom: 500px;
+}
+
+.calc h2 {
+    margin: 30px;
+}
+
+.calc p {
+    margin-left: 30px;
+    font-size: 20px;
+    color: #DADAE5;
+}
+
+.calc img {
+    margin-left: 62%;
+    width: 20%;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+
+}
+
+@media only screen and (max-width: 740px) {
+    .header {
+        width: 72%;
+        height: 200px;
+        text-align: center;
+     
+        margin:25px ;
+        margin-top: 30px;
+    }
+
+    .header h1 {
+        font-size: 20px;
+    }
+
+    .header h2 {
+        font-size: 22px;
+    }
+
+    .header h3 {
+        font-size: 15px;
+    }
+    .sec{
+        width: 70%;
+        height: 900px;
+        margin-top: 5px;
+        border: #44D3D2 solid 1px;
+    }
+    .sup{
+        width:270px;
+        height: 200px;
+        margin: 0 auto;
+    }
+    .sup h2{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .sup p {
+        font-size: 16px;
+      
+    }
+    .sup img{
+     margin-bottom:10px;
+    }
+    .Team{
+        width:270px;
+        height: 200px;
+       margin-top: 165px;
+       right: 21%;
+    }
+    .Team h2{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .Team p{
+        font-size: 13px;
+    }
+    .Team img{
+        margin-bottom:10px;
+    }
+    .karma{
+        width:270px;
+        height: 200px;
+     right: 94px;
+      bottom: 140px;
+    }
+    .karma h2{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .karma p{
+        font-size: 13px; 
+    }
+    .karma img{
+        margin-bottom:10px;
+    }
+    .calc{
+        width:270px;
+        height: 200px;
+        margin-top:370px;
+       right: 190px;
+    }
+    .calc h2{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .calc p{
+        font-size: 13px; 
+    }
+    .calc img{
+        margin-left:170px;
+        top: 35px;
+    }
+    .attribution{
+        margin-right: 30px;
+    }
+}
