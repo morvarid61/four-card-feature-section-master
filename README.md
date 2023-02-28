@@ -20,6 +20,8 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 
 ## Overview
 
+This is the first practise for HTML and CSS.
+
 ### The challenge
 
 Users should be able to:
@@ -28,7 +30,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Screen Shot](./screenshot.jpg)
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
@@ -97,9 +99,9 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Add your name here](Marjan sadat Lavassani)
+- Frontend Mentor - [@yourusername](https://github.com/morvarid61)
+
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
