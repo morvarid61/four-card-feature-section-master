@@ -73,8 +73,9 @@ To see how you can add code snippets, see below:
     position: relative;
     margin-left: 35%;
     bottom: 90px;
+}
 ```
-```
+
 
 ## Author
 
