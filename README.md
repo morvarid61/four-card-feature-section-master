@@ -6,7 +6,7 @@ Created with 4 divs differently colored & template text
 
 ## Screenshot
 
-[Screenshot](#screenshot)
+![Screen Shot](./screenshot.jpg)
 
 ## Author
 
