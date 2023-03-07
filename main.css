@@ -6,18 +6,18 @@
 
 @font-face {
     font-family: "PoppinsSemibold";
-    src: url("/fonts/Poppins-SemiBold.ttf");
+    src: url("fonts/Poppins-SemiBold.ttf");
     font-style: normal;
 }
 
 @font-face {
     font-family: "PoppinsR";
-    src: url("/fonts/Poppins-Regular.ttf");
+    src: url("fonts/Poppins-Regular.ttf");
 }
 
 @font-face {
     font-family: "PoppinsE";
-    src: url("/fonts/Poppins-ExtraLight.ttf");
+    src: url("fonts/Poppins-Regular.ttf");
 }
 
 body {
