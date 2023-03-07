@@ -97,10 +97,9 @@ body {
 }
 
 .box1 {
-
-    margin-left: 13%;
-    margin-top: 30px;
-    position: absolute;
+    margin-left: 73%;
+    margin-top: 25px;
+    float: left;
 }
 
 .Team {
@@ -132,7 +131,7 @@ body {
 .box2 {
     margin-left: 73%;
     margin-top: 30px;
-    position: absolute;
+    float: left;
 
 }
 
@@ -165,7 +164,7 @@ body {
 .box3 {
     margin-left: 73%;
     margin-top: 30px;
-    position: absolute;
+    float: left;
 }
 
 .calc {
@@ -197,7 +196,7 @@ body {
 .box4 {
     margin-left: 73%;
     margin-top: 30px;
-    position: absolute;
+    float: left;
 
 }
 
