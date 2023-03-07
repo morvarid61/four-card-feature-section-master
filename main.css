@@ -4,157 +4,207 @@
 
 }
 
+@font-face {
+    font-family: "PoppinsSemibold";
+    src: url("/fonts/Poppins-SemiBold.ttf");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "PoppinsR";
+    src: url("/fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: "PoppinsE";
+    src: url("/fonts/Poppins-ExtraLight.ttf");
+}
+
+body {
+    background-color: #fafafa;
+    font-family: "Poppins";
+}
+
+
 .header {
     text-align: center;
-    margin-left: 32%;
+    margin-left: 36%;
     margin-bottom: 30px;
     margin-top: 30px;
-    width: 550px;
+    width: 540px;
     height: 168px;
+    font-family: "Poppins";
 
 }
 
 .header h1 {
-    color: #DADAE5;
-    font-size: 40px;
+    color: #4D4F62;
+    font-size: 35px;
+    font-family: "PoppinsE";
 }
 
 .header h2 {
-    color: #4D4F62;
-    font-size: 44px;
-    margin-top: 10px;
+    color: #4d4f62;
+    -webkit-text-stroke: 1px #000;
+    bottom: 20px;
+    font-size: 35px;
+    font-family: "PoppinsSemibold";
 }
 
 .header h3 {
-    color: #DADAE5;
+    color: #4D4F62;
     text-align: center;
     margin: 0 auto;
-    font-size: 18px;
+    font-size: 15px;
+    font-family: "PoppinsR";
+
 }
 
 .sec {
-    width: 80%;
-    height: 570px;
-    margin-left: 10%;
+    width: 1110px;
+    height: 530px;
+    margin-left: 410px;
+    margin-top: 30px;
     display: inline-block;
 
 }
 
 .sup {
     border-top: 5px solid #44D3D2;
-    width: 30%;
+    width: 350px;
     height: 250px;
-    margin-top: 150px;
-    bottom: 300px;
+    margin-top: 140px;
     display: inline-block;
     box-shadow: #DADAE5 0 2px 3px 3px;
     border-radius: 7px;
-
+    font-family: Poppins;
+    background-color: #ffff;
 
 }
 
 .sup h2 {
+    font-family: "PoppinsSemibold";
+    font-size: 20px;
+    color: #4D4F62;
     margin: 30px;
 }
 
 .sup p {
+    font-family: "PoppinsR";
     margin-left: 30px;
-    font-size: 20px;
-    color: #DADAE5;
+    font-size: 13px;
+    color: #4D4F62;
 }
 
-.sup img {
+.box1 {
 
-    margin-left: 60%;
-    width: 20%;
+    margin-left: 13%;
+    margin-top: 30px;
+    position: absolute;
 }
 
 .Team {
     border-top: 5px solid #EA5454;
-    width: 30%;
+    width: 350px;
     height: 250px;
     display: inline-block;
+    position: absolute;
     box-shadow: #DADAE5 0 2px 3px 3px;
     border-radius: 7px;
-    position: relative;
-    margin-left: 60px;
-    bottom: 150px;
+    margin-left: 30px;
+    background-color: #ffff;
 }
 
 .Team h2 {
+    font-family: "PoppinsSemibold";
+    color: #4D4F62;
+    font-size: 20px;
     margin: 30px;
 }
 
 .Team p {
+    font-family: "PoppinsR";
     margin-left: 30px;
-    font-size: 20px;
-    color: #DADAE5;
+    font-size: 13px;
+    color: #4D4F62;
 }
 
-.Team img {
+.box2 {
+    margin-left: 73%;
+    margin-top: 30px;
+    position: absolute;
 
-    margin-left: 62%;
-    width: 20%;
 }
 
 .karma {
     border-top: 5px solid #FCAE4A;
-    width: 30%;
+    width: 350px;
     height: 250px;
     display: inline-block;
+    position: absolute;
     box-shadow: #DADAE5 0 2px 3px 3px;
     border-radius: 7px;
-    position: relative;
-    margin-left: 35%;
-    bottom: 90px;
+    margin-left: 30px;
+    margin-top: 275px;
+    background-color: #ffff;
 }
 
 .karma h2 {
+    font-family: "PoppinsSemibold";
+    color: #4D4F62;
     margin: 30px;
 }
 
 .karma p {
+    font-family: "PoppinsR";
     margin-left: 30px;
-    font-size: 20px;
-    color: #DADAE5;
+    font-size: 13px;
+    color: #4D4F62;
 }
 
-.karma img {
-
-    margin-left: 62%;
-    width: 20%;
+.box3 {
+    margin-left: 73%;
+    margin-top: 30px;
+    position: absolute;
 }
 
 .calc {
     border-top: 5px solid #549EF2;
-    width: 30%;
+    width: 350px;
     height: 250px;
     display: inline-block;
+    position: absolute;
     box-shadow: #DADAE5 0 2px 3px 3px;
     border-radius: 7px;
-    position: relative;
-    margin-left: 70%;
-    bottom: 500px;
+    margin-left: 410px;
+    margin-top: 140px;
+    background-color: #ffff;
 }
 
 .calc h2 {
+    font-family: "PoppinsSemibold";
+    color: #4D4F62;
     margin: 30px;
 }
 
 .calc p {
+    font-family: "PoppinsR";
     margin-left: 30px;
-    font-size: 20px;
-    color: #DADAE5;
+    font-size: 13px;
+    color: #4D4F62;
 }
 
-.calc img {
-    margin-left: 62%;
-    width: 20%;
+.box4 {
+    margin-left: 73%;
+    margin-top: 30px;
+    position: absolute;
+
 }
 
 .attribution {
     font-size: 11px;
     text-align: center;
+    margin-top: 30px;
 }
 
 .attribution a {
@@ -167,8 +217,8 @@
         width: 72%;
         height: 200px;
         text-align: center;
-     
-        margin:25px ;
+
+        margin: 25px;
         margin-top: 30px;
     }
 
@@ -183,78 +233,97 @@
     .header h3 {
         font-size: 15px;
     }
-    .sec{
+
+    .sec {
         width: 70%;
         height: 900px;
         margin-top: 5px;
         border: #44D3D2 solid 1px;
     }
-    .sup{
-        width:270px;
+
+    .sup {
+        width: 270px;
         height: 200px;
         margin: 0 auto;
     }
-    .sup h2{
+
+    .sup h2 {
         font-size: 25px;
         margin-bottom: 10px;
     }
+
     .sup p {
         font-size: 16px;
-      
+
     }
-    .sup img{
-     margin-bottom:10px;
-    }
-    .Team{
-        width:270px;
-        height: 200px;
-       margin-top: 165px;
-       right: 21%;
-    }
-    .Team h2{
-        font-size: 25px;
+
+    .sup img {
         margin-bottom: 10px;
     }
-    .Team p{
+
+    .Team {
+        width: 270px;
+        height: 200px;
+        margin-top: 165px;
+        right: 21%;
+    }
+
+    .Team h2 {
+        font-family: "PoppinsSemibold";
+        color: #4D4F62;
+        margin-bottom: 10px;
+    }
+
+    .Team p {
         font-size: 13px;
     }
-    .Team img{
-        margin-bottom:10px;
+
+    .Team img {
+        margin-bottom: 10px;
     }
-    .karma{
-        width:270px;
+
+    .karma {
+        width: 270px;
         height: 200px;
-     right: 94px;
-      bottom: 140px;
+        right: 94px;
+        bottom: 140px;
     }
-    .karma h2{
+
+    .karma h2 {
+        font-family: "PoppinsSemibold";
+        color: #4D4F62;
+    }
+
+    .karma p {
+        font-size: 13px;
+    }
+
+    .karma img {
+        margin-bottom: 10px;
+    }
+
+    .calc {
+        width: 270px;
+        height: 200px;
+        margin-top: 370px;
+        right: 190px;
+    }
+
+    .calc h2 {
         font-size: 25px;
         margin-bottom: 10px;
     }
-    .karma p{
-        font-size: 13px; 
+
+    .calc p {
+        font-size: 13px;
     }
-    .karma img{
-        margin-bottom:10px;
-    }
-    .calc{
-        width:270px;
-        height: 200px;
-        margin-top:370px;
-       right: 190px;
-    }
-    .calc h2{
-        font-size: 25px;
-        margin-bottom: 10px;
-    }
-    .calc p{
-        font-size: 13px; 
-    }
-    .calc img{
-        margin-left:170px;
+
+    .calc img {
+        margin-left: 170px;
         top: 35px;
     }
-    .attribution{
+
+    .attribution {
         margin-right: 30px;
     }
 }
