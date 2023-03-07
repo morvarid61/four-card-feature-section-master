@@ -6,7 +6,7 @@ Created with 4 divs differently colored & template text
 
 ## Screenshot
 
-![Screen Shot](.\screenshot2.jpg)
+![Screen Shot](.\screenshot.jpg)
 ## Author
 
 - Author - [Marjan sadat Lavassni](https://github.com/morvarid61)
