@@ -16,84 +16,87 @@
 }
 
 @font-face {
-    font-family: "PoppinsE";
-    src: url("fonts/Poppins-Regular.ttf");
+    font-family: "PoppinsExtra";
+    src: url("fonts/Poppins-ExtraLight.ttf");
 }
 
 body {
-    background-color: #fafafa;
+    background-color: #f2f2f2;
     font-family: "Poppins";
 }
 
 
 .header {
     text-align: center;
-    margin-left: 36%;
-    margin-bottom: 30px;
-    margin-top: 30px;
     width: 540px;
     height: 168px;
     font-family: "Poppins";
+    margin: 0 auto;
 
 }
 
 .header h1 {
-    color: #4D4F62;
-    font-size: 35px;
-    font-family: "PoppinsE";
+    color: #4d4f62;
+    font-size: 36px;
+    font-family: "PoppinsExtra";
+
 }
 
 .header h2 {
     color: #4d4f62;
-    -webkit-text-stroke: 1px #000;
     bottom: 20px;
-    font-size: 35px;
+    font-size: 36px;
     font-family: "PoppinsSemibold";
 }
 
 .header h3 {
-    color: #4D4F62;
+
     text-align: center;
-    margin: 0 auto;
     font-size: 15px;
     font-family: "PoppinsR";
+    color: #4d4f627a;
+
 
 }
 
 .sec {
-    width: 1110px;
+
+    display: flex;
+    width: 100%;
     height: 530px;
-    margin-left: 410px;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
     margin-top: 30px;
-    display: inline-block;
 
 }
 
 .sup {
     border-top: 5px solid #44D3D2;
+    box-shadow: #DADAE5 0 2px 3px 3px;
     width: 350px;
     height: 250px;
-    margin-top: 140px;
-    display: inline-block;
-    box-shadow: #DADAE5 0 2px 3px 3px;
     border-radius: 7px;
     font-family: Poppins;
-    background-color: #ffff;
-
+    background-color: #fff;
+    position: relative;
+    left: 9%;
 }
+
 
 .sup h2 {
     font-family: "PoppinsSemibold";
     font-size: 20px;
     color: #4D4F62;
-    margin: 30px;
+    margin: 20px;
+
 }
 
 .sup p {
     font-family: "PoppinsR";
     margin-left: 30px;
     font-size: 13px;
-    color: #4D4F62;
+    color: #4d4f62;
 }
 
 .box1 {
@@ -106,17 +109,17 @@ body {
     border-top: 5px solid #EA5454;
     width: 350px;
     height: 250px;
-    display: inline-block;
-    position: absolute;
     box-shadow: #DADAE5 0 2px 3px 3px;
     border-radius: 7px;
-    margin-left: 30px;
     background-color: #ffff;
+    align-self: flex-start;
+    position: relative;
+    left: 12%;
 }
 
 .Team h2 {
     font-family: "PoppinsSemibold";
-    color: #4D4F62;
+    color: #4d4f62;
     font-size: 20px;
     margin: 30px;
 }
@@ -125,7 +128,7 @@ body {
     font-family: "PoppinsR";
     margin-left: 30px;
     font-size: 13px;
-    color: #4D4F62;
+    color: #4d4f62;
 }
 
 .box2 {
@@ -139,26 +142,27 @@ body {
     border-top: 5px solid #FCAE4A;
     width: 350px;
     height: 250px;
-    display: inline-block;
-    position: absolute;
     box-shadow: #DADAE5 0 2px 3px 3px;
     border-radius: 7px;
-    margin-left: 30px;
-    margin-top: 275px;
     background-color: #ffff;
+    align-self: flex-end;
+    position: relative;
+    right: 11%;
 }
 
 .karma h2 {
     font-family: "PoppinsSemibold";
-    color: #4D4F62;
-    margin: 30px;
+    color: #4d4f62;
+    margin: 20px;
+
 }
 
 .karma p {
     font-family: "PoppinsR";
     margin-left: 30px;
     font-size: 13px;
-    color: #4D4F62;
+    color: #4d4f62;
+    -webkit-text-stroke: #979797;
 }
 
 .box3 {
@@ -171,26 +175,24 @@ body {
     border-top: 5px solid #549EF2;
     width: 350px;
     height: 250px;
-    display: inline-block;
-    position: absolute;
     box-shadow: #DADAE5 0 2px 3px 3px;
     border-radius: 7px;
-    margin-left: 410px;
-    margin-top: 140px;
     background-color: #ffff;
+    position: relative;
+    right: 7%;
 }
 
 .calc h2 {
     font-family: "PoppinsSemibold";
     color: #4D4F62;
-    margin: 30px;
+    margin: 20px;
 }
 
 .calc p {
     font-family: "PoppinsR";
     margin-left: 30px;
     font-size: 13px;
-    color: #4D4F62;
+    color: #4d4f62;
 }
 
 .box4 {
@@ -209,120 +211,4 @@ body {
 .attribution a {
     color: hsl(228, 45%, 44%);
 
-}
-
-@media only screen and (max-width: 740px) {
-    .header {
-        width: 72%;
-        height: 200px;
-        text-align: center;
-
-        margin: 25px;
-        margin-top: 30px;
-    }
-
-    .header h1 {
-        font-size: 20px;
-    }
-
-    .header h2 {
-        font-size: 22px;
-    }
-
-    .header h3 {
-        font-size: 15px;
-    }
-
-    .sec {
-        width: 70%;
-        height: 900px;
-        margin-top: 5px;
-        border: #44D3D2 solid 1px;
-    }
-
-    .sup {
-        width: 270px;
-        height: 200px;
-        margin: 0 auto;
-    }
-
-    .sup h2 {
-        font-size: 25px;
-        margin-bottom: 10px;
-    }
-
-    .sup p {
-        font-size: 16px;
-
-    }
-
-    .sup img {
-        margin-bottom: 10px;
-    }
-
-    .Team {
-        width: 270px;
-        height: 200px;
-        margin-top: 165px;
-        right: 21%;
-    }
-
-    .Team h2 {
-        font-family: "PoppinsSemibold";
-        color: #4D4F62;
-        margin-bottom: 10px;
-    }
-
-    .Team p {
-        font-size: 13px;
-    }
-
-    .Team img {
-        margin-bottom: 10px;
-    }
-
-    .karma {
-        width: 270px;
-        height: 200px;
-        right: 94px;
-        bottom: 140px;
-    }
-
-    .karma h2 {
-        font-family: "PoppinsSemibold";
-        color: #4D4F62;
-    }
-
-    .karma p {
-        font-size: 13px;
-    }
-
-    .karma img {
-        margin-bottom: 10px;
-    }
-
-    .calc {
-        width: 270px;
-        height: 200px;
-        margin-top: 370px;
-        right: 190px;
-    }
-
-    .calc h2 {
-        font-size: 25px;
-        margin-bottom: 10px;
-    }
-
-    .calc p {
-        font-size: 13px;
-    }
-
-    .calc img {
-        margin-left: 170px;
-        top: 35px;
-    }
-
-    .attribution {
-        margin-right: 30px;
-    }
 }
