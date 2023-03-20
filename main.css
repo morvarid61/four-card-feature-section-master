@@ -28,15 +28,16 @@ body {
 
 .header {
     text-align: center;
-    width: 540px;
-    height: 168px;
+    display: flex;
     font-family: "Poppins";
+    flex-direction: column;
     margin: 0 auto;
+    width: 530px;
 
 }
 
 .header h1 {
-    color: #4d4f62;
+    color: rgba(77, 79, 98, 1);
     font-size: 36px;
     font-family: "PoppinsExtra";
 
@@ -50,12 +51,12 @@ body {
 }
 
 .header h3 {
-
+    width: 540px;
     text-align: center;
     font-size: 15px;
     font-family: "PoppinsR";
-    color: #4d4f627a;
-
+    color: #4d4f62;
+    opacity: 50%;
 
 }
 
@@ -97,6 +98,7 @@ body {
     margin-left: 30px;
     font-size: 13px;
     color: #4d4f62;
+    opacity: 50%;
 }
 
 .box1 {
@@ -129,6 +131,7 @@ body {
     margin-left: 30px;
     font-size: 13px;
     color: #4d4f62;
+    opacity: 50%;
 }
 
 .box2 {
@@ -162,7 +165,7 @@ body {
     margin-left: 30px;
     font-size: 13px;
     color: #4d4f62;
-    -webkit-text-stroke: #979797;
+    opacity: 50%;
 }
 
 .box3 {
@@ -193,6 +196,7 @@ body {
     margin-left: 30px;
     font-size: 13px;
     color: #4d4f62;
+    opacity: 50%;
 }
 
 .box4 {
@@ -211,4 +215,46 @@ body {
 .attribution a {
     color: hsl(228, 45%, 44%);
 
+}
+
+@media only screen and (max-width: 740px) {
+    .header {
+        width: 311px;
+        margin-top: 16px;
+    }
+
+    .header h1 {
+        font-size: 24px;
+    }
+
+    .header h2 {
+        font-size: 24px;
+    }
+
+    .header h3 {
+        font-size: 15px;
+        width: 311px;
+    }
+
+    .sup {
+        width: 311px;
+
+    }
+
+    .sec {
+        margin-top: 10px;
+        flex-direction: column-reverse;
+    }
+
+    .karma {
+        width: 311px;
+    }
+
+    .Team {
+        width: 311px;
+    }
+
+    .calc {
+        width: 311px;
+    }
 }
