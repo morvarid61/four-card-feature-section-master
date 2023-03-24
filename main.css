@@ -32,6 +32,7 @@ body {
     font-family: "Poppins";
     flex-direction: column;
     margin: 0 auto;
+    margin-top: 80px;
     width: 530px;
 
 }
@@ -50,26 +51,24 @@ body {
     font-family: "PoppinsSemibold";
 }
 
-.header h3 {
+.header p {
     width: 540px;
     text-align: center;
     font-size: 15px;
     font-family: "PoppinsR";
     color: #4d4f62;
     opacity: 50%;
-
+    margin-bottom: 59px;
 }
 
 .sec {
 
     display: flex;
     width: 100%;
-    height: 530px;
     justify-content: center;
     align-items: center;
     background-color: #f2f2f2;
-    margin-top: 30px;
-
+    margin: 0 auto;
 }
 
 .sup {
@@ -80,8 +79,7 @@ body {
     border-radius: 7px;
     font-family: Poppins;
     background-color: #fff;
-    position: relative;
-    left: 9%;
+    
 }
 
 
@@ -114,9 +112,9 @@ body {
     box-shadow: #DADAE5 0 2px 3px 3px;
     border-radius: 7px;
     background-color: #ffff;
-    align-self: flex-start;
-    position: relative;
-    left: 12%;
+    margin-bottom: 30px;
+
+
 }
 
 .Team h2 {
@@ -149,8 +147,8 @@ body {
     border-radius: 7px;
     background-color: #ffff;
     align-self: flex-end;
-    position: relative;
-    right: 11%;
+
+
 }
 
 .karma h2 {
@@ -168,6 +166,11 @@ body {
     opacity: 50%;
 }
 
+.flex-direction2 {
+    margin: 30px;
+    justify-content: center;
+}
+
 .box3 {
     margin-left: 73%;
     margin-top: 30px;
@@ -181,7 +184,7 @@ body {
     box-shadow: #DADAE5 0 2px 3px 3px;
     border-radius: 7px;
     background-color: #ffff;
-    position: relative;
+
     right: 7%;
 }
 
@@ -209,7 +212,7 @@ body {
 .attribution {
     font-size: 11px;
     text-align: center;
-    margin-top: 30px;
+    margin-bottom: 80px;
 }
 
 .attribution a {
@@ -217,10 +220,19 @@ body {
 
 }
 
-@media only screen and (max-width: 740px) {
+@media only screen and (max-width: 740px) { 
+    body {
+        height: 1360px;
+        width: 375px;
+    }
+
     .header {
         width: 311px;
         margin-top: 16px;
+        margin-bottom: 75px;
+flex-direction: column;
+align-items: center;
+margin:  0 auto;
     }
 
     .header h1 {
@@ -233,28 +245,41 @@ body {
 
     .header h3 {
         font-size: 15px;
-        width: 311px;
-    }
-
-    .sup {
-        width: 311px;
 
     }
 
     .sec {
-        margin-top: 10px;
-        flex-direction: column-reverse;
+
+        flex-flow: column;
+        border: #4D4F62 solid 1px;
+        margin: 0 auto;
     }
+
+    .sup {
+        width: 311px;
+        height: 222px;
+        margin: 25px;
+
+    }
+
+
 
     .karma {
         width: 311px;
+        height: 222px;
+        margin: 25px;
+
     }
 
     .Team {
         width: 311px;
+        height: 222px;
+        margin: 25px;
     }
 
     .calc {
         width: 311px;
+        height: 222px;
+        margin: 25px;
     }
 }
