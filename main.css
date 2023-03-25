@@ -5,209 +5,146 @@
 }
 
 @font-face {
-    font-family: "PoppinsSemibold";
+    font-family: "Poppins";
     src: url("fonts/Poppins-SemiBold.ttf");
-    font-style: normal;
+    font-weight: 500;
 }
 
 @font-face {
-    font-family: "PoppinsR";
+    font-family: "Poppins";
     src: url("fonts/Poppins-Regular.ttf");
+    font-weight: 400;
 }
 
 @font-face {
-    font-family: "PoppinsExtra";
+    font-family: "Poppins";
     src: url("fonts/Poppins-ExtraLight.ttf");
+    font-weight: 700;
 }
 
 body {
     background-color: #f2f2f2;
-    font-family: "Poppins";
+    font-family: Poppins;
 }
 
 
 .header {
     text-align: center;
     display: flex;
-    font-family: "Poppins";
     flex-direction: column;
     margin: 0 auto;
     margin-top: 80px;
-    width: 530px;
-
-}
-
-.header h1 {
-    color: rgba(77, 79, 98, 1);
-    font-size: 36px;
-    font-family: "PoppinsExtra";
+    width: 540px;
 
 }
 
 .header h2 {
-    color: #4d4f62;
-    bottom: 20px;
+    color: #4D4F62;
     font-size: 36px;
-    font-family: "PoppinsSemibold";
+    font-weight: 700;
+
+}
+
+.header h1 {
+    color: #4d4f62;
+    font-size: 36px;
+    font-weight: 500;
 }
 
 .header p {
     width: 540px;
     text-align: center;
     font-size: 15px;
-    font-family: "PoppinsR";
+    font-weight: 400;
     color: #4d4f62;
     opacity: 50%;
-    margin-bottom: 59px;
+    margin-bottom: 30px;
 }
 
 .sec {
-
     display: flex;
-    width: 100%;
+    width: 75%;
     justify-content: center;
     align-items: center;
     background-color: #f2f2f2;
     margin: 0 auto;
 }
 
-.sup {
-    border-top: 5px solid #44D3D2;
-    box-shadow: #DADAE5 0 2px 3px 3px;
-    width: 350px;
-    height: 250px;
-    border-radius: 7px;
-    font-family: Poppins;
-    background-color: #fff;
-    
-}
-
-
-.sup h2 {
-    font-family: "PoppinsSemibold";
-    font-size: 20px;
-    color: #4D4F62;
-    margin: 20px;
-
-}
-
-.sup p {
-    font-family: "PoppinsR";
-    margin-left: 30px;
+.context {
+    font-weight: 400;
+    margin-top: 6px;
+    margin-left: 32px;
     font-size: 13px;
     color: #4d4f62;
     opacity: 50%;
 }
 
-.box1 {
-    margin-left: 73%;
-    margin-top: 25px;
-    float: left;
+.Title {
+    font-size: 20px;
+    font-weight: 500;
+    color: #4D4F62;
+    margin-top: 32px;
+    margin-left: 32px;
+    width: 135px;
+    height: 30px;
 }
 
-.Team {
-    border-top: 5px solid #EA5454;
-    width: 350px;
+.box {
+    margin-right: 32px;
+    margin-top: 40px;
+    float: right;
+}
+
+.sup {
+    border-top: 4px solid #44D3D2;
+    width: 33.3%;
     height: 250px;
-    box-shadow: #DADAE5 0 2px 3px 3px;
+    border-radius: 7px;
+    background-color: #fff;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+
+}
+
+
+
+.Team {
+    border-top: 4px solid #EA5454;
+    height: 250px;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
     border-radius: 7px;
     background-color: #ffff;
     margin-bottom: 30px;
-
-
-}
-
-.Team h2 {
-    font-family: "PoppinsSemibold";
-    color: #4d4f62;
-    font-size: 20px;
-    margin: 30px;
-}
-
-.Team p {
-    font-family: "PoppinsR";
-    margin-left: 30px;
-    font-size: 13px;
-    color: #4d4f62;
-    opacity: 50%;
-}
-
-.box2 {
-    margin-left: 73%;
-    margin-top: 30px;
-    float: left;
-
+    font-weight: 500;
 }
 
 .karma {
-    border-top: 5px solid #FCAE4A;
-    width: 350px;
+    border-top: 4px solid #FCAE4A;
     height: 250px;
-    box-shadow: #DADAE5 0 2px 3px 3px;
     border-radius: 7px;
     background-color: #ffff;
-    align-self: flex-end;
-
-
+    font-weight: 500;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
 }
 
-.karma h2 {
-    font-family: "PoppinsSemibold";
-    color: #4d4f62;
-    margin: 20px;
-
-}
-
-.karma p {
-    font-family: "PoppinsR";
-    margin-left: 30px;
-    font-size: 13px;
-    color: #4d4f62;
-    opacity: 50%;
-}
 
 .flex-direction2 {
     margin: 30px;
     justify-content: center;
-}
-
-.box3 {
-    margin-left: 73%;
-    margin-top: 30px;
-    float: left;
+    width: 33.3%;
 }
 
 .calc {
-    border-top: 5px solid #549EF2;
-    width: 350px;
+    border-top: 4px solid #549EF2;
+    width: 33.3%;
     height: 250px;
-    box-shadow: #DADAE5 0 2px 3px 3px;
     border-radius: 7px;
     background-color: #ffff;
-
     right: 7%;
-}
-
-.calc h2 {
-    font-family: "PoppinsSemibold";
-    color: #4D4F62;
-    margin: 20px;
-}
-
-.calc p {
-    font-family: "PoppinsR";
-    margin-left: 30px;
-    font-size: 13px;
-    color: #4d4f62;
-    opacity: 50%;
-}
-
-.box4 {
-    margin-left: 73%;
-    margin-top: 30px;
-    float: left;
+    font-weight: 500;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
 
 }
+
 
 .attribution {
     font-size: 11px;
@@ -220,46 +157,52 @@ body {
 
 }
 
-@media only screen and (max-width: 740px) { 
-    body {
-        height: 1360px;
-        width: 375px;
-    }
+@media only screen and (max-width: 740px) {
+
 
     .header {
         width: 311px;
-        margin-top: 16px;
-        margin-bottom: 75px;
-flex-direction: column;
-align-items: center;
-margin:  0 auto;
+
+        text-align: center;
+        margin: 0 auto;
+        display: flex;
+    }
+
+    .header h2 {
+        font-size: 24px;
+        margin-top: 80px;
     }
 
     .header h1 {
         font-size: 24px;
     }
 
-    .header h2 {
-        font-size: 24px;
+    .header p {
+        font-size: 15px;
+        width: 311px;
+        margin-bottom: 75px;
     }
 
-    .header h3 {
-        font-size: 15px;
+    .flex-direction2 {
+        display: flex;
+        flex-direction: column-reverse;
+        flex-flow: column-reverse;
+        align-items: center;
+        justify-items: flex-start;
 
     }
 
     .sec {
-
+        display: flex;
         flex-flow: column;
         border: #4D4F62 solid 1px;
         margin: 0 auto;
+
     }
 
     .sup {
         width: 311px;
         height: 222px;
-        margin: 25px;
-
     }
 
 
@@ -268,18 +211,15 @@ margin:  0 auto;
         width: 311px;
         height: 222px;
         margin: 25px;
-
     }
 
     .Team {
         width: 311px;
         height: 222px;
-        margin: 25px;
     }
 
     .calc {
         width: 311px;
         height: 222px;
-        margin: 25px;
     }
 }
