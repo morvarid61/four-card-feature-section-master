@@ -240,7 +240,6 @@ body {
     .sup {
         width: 311px;
         height: 222px;
-        margin-bottom: 24px;
     }
 
 
@@ -248,7 +247,6 @@ body {
     .karma {
         width: 311px;
         height: 222px;
-        margin: 24px;
     }
 
     .Team {
@@ -261,7 +259,15 @@ body {
         height: 222px;
         margin-bottom: 78px;
     }
-
+    .images{
+        margin: 28px;
+    }
+    .Title{
+        margin-top: 27px;
+    }
+    .context{
+        margin-bottom: 6px;
+    }
 
     .attribution {
         display: none;
