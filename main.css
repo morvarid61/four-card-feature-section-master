@@ -240,6 +240,7 @@ body {
     .sup {
         width: 311px;
         height: 222px;
+        margin-bottom: 24px;
     }
 
 
@@ -247,6 +248,7 @@ body {
     .karma {
         width: 311px;
         height: 222px;
+        margin: 24px;
     }
 
     .Team {
@@ -266,11 +268,32 @@ body {
         margin-top: 27px;
     }
     .context{
-        margin-bottom: 6px;
+        margin-bottom: 33px;
     }
 
     .attribution {
         display: none;
 
     }
+}
+@media only screen and (max-width: 1024px){
+
+    .context{
+      
+        font-size:10px;
+        
+    }
+
+}
+@media only screen and (max-width: 1366px){
+    .Title{
+        font-size: 17px;
+    }
+    .context{
+        margin-bottom: 33px;
+    }
+    .images{
+        margin: 25px;
+    }
+
 }
