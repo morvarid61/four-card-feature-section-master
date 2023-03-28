@@ -182,8 +182,7 @@ body {
     top: 0;
     right: 0;
     background: rgba(84, 158, 242, 1);
-    ;
-
+    
 }
 
 
@@ -260,9 +259,12 @@ body {
     .calc {
         width: 311px;
         height: 222px;
+        margin-bottom: 78px;
     }
+
 
     .attribution {
         display: none;
+
     }
 }
